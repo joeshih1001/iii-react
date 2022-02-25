@@ -48,7 +48,7 @@ function ProductItem(props) {
             ${price}{' '}
             <span
               className="close"
-              onclick={handleDelete}
+              onClick={handleDelete}
             >
               &#10005;
             </span>
